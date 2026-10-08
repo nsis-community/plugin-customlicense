@@ -13,7 +13,7 @@
 /* Include the windows.h file, and the NSIS plugin header. */
 #include <windows.h>
 #ifdef UNICODE
-	#include "nsis\unicode\pluginapi.h" /* This means NSIS 2.42 or higher is required. */
+	#include "nsis\pluginapi.h" /* This means NSIS 2.42 or higher is required. */
 #else
 	#include "nsis\pluginapi.h" /* This means NSIS 2.42 or higher is required. */
 #endif
